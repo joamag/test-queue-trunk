@@ -8,7 +8,7 @@ from main import sum_two_numbers
 
 class TestSum(unittest.TestCase):
     def test_sum(self):
-        self.assertEqual(sum_two_numbers(2, 3), 6)
+        self.assertEqual(sum_two_numbers(2, 3), 5)
         self.assertEqual(sum_two_numbers(0, 0), 0)
         self.assertEqual(sum_two_numbers(-1, 1), 0)
 
